@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym System</title>
+    <link rel="stylesheet" href="../port/estilosp.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@500&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/86c594d8f6.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="shortcut icon" href="../multimedia/favicon.png">
+    <script>
+
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            });
+        });
+
+    </script>
+
+</head>
+<body>
+
+   
+   <!--MENÚ DE NAVEGACIÓN-->
+   <nav>
+    <label class="logo"><a href="../index.html" id="logo-gs"><img src="../multimedia/logoGS.png"></a></label>
+    <ul>
+        <li><a class="active" href="../index.html">INICIO</a></li>
+        <li><a href="../nos/Nosotros.html">NOSOTROS</a></li>
+        <li><a href="../port/portafolio.html">PORTAFOLIO</a></li>
+        <li><a href="../cont/Contacto.html">CONTACTO</a></li>
+        <li><a href="../log/login.html">LOGIN</a></li>
+     </ul>
+     <label id="icon">
+        <i class="fa-solid fa-bars"></i>
+     </label>
+
+   </nav>
+
+   <!--Proyectos-->
+   <br>
+   <br>
+   <div class="container-lg">
+    <h1 class="text-danger">Nuestros Proyectos</h1>
+    <br>
+    <br>
+    <h3 >Apoyo a la tercera edad</h3>
+    <p class="fs-5">Es nuestro gimnasio con ayuda de la Alcaldia damos la posiblidad a las personas de la tercera edad para que puedan realizar actividades fisicas que mejoren su calidad de vida con actividades adecuadas para ellos.</p>
+    <img src="../multimedia/proyecto1.jpg" class="img-thumbnail" alt="" id="imagen">
+    
+    <br>
+    <br>
+    <h3>Reto Fitness</h3>
+    <p class="fs-5">Uno de los más grandes proyectos hasta el momento es el Reto Fitness, donde motivamos a nuestros clientes a cambiar fisica y mentalmente. El objetivo es obtener una tranformación total.</p>
+    <img src="../multimedia/proyecto2.jpg" class="img-thumbnail" alt="" id="imagen">
+
+    <br>
+    <br>
+    <h3>Maquinas de Alto Nivel</h3>
+    <p class="fs-5">Cuando comenzamos con este proyecto nunca pensamos llegar a este punto. Contamos con la mejor maquinaria de todo el país, sabemos lo importante que es tener 
+      la maquinaria adecuada para nuestros clientes.
+    </p>
+    <img src="../multimedia/proyecto3.jpg" class="img-thumbnail" alt="" id="imagen">
+  
+  </div>
+
+    
+</body>
+</html>

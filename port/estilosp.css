@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:wght@100&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@500&family=Oswald:wght@500&family=Roboto+Mono:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{  
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(235, 235, 235);
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    background: #eeeeee;
+
+}
+label.logo { 
+    padding: 0 100px;
+    line-height: 80px;
+
+}
+nav ul{
+    float: right;
+    margin-right:40px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav a{
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+
+}
+
+a.active,a:hover{
+    border: 1px solid brown;
+    transition: .5s;
+}
+
+#logo-gs{
+    border-style: none;
+}
+
+nav #icon{
+    color: black;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+@media (max-width: 1048px){
+    label.logo{
+        font-size: 32px;
+        padding-left: 60px;
+    }
+    nav ul{
+        margin-right: 20px;
+    }
+    nav a { 
+        font-size: 17px;
+    }
+}
+@media (max-width: 909px){
+    nav #icon { 
+        display: block;
+    }
+    nav ul { 
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #eeeeee;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav a {
+        font-size: 20px;
+    }
+    a.active,a:hover{
+        border: none;
+        color: #3498db;
+    }
+    nav ul.show {
+        left: 0;
+    }
+}
+
+section{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+    url(/multimedia/im1.jpg) no-repeat;
+    background-size: cover;
+    height: calc(80vh - 80px);
+    
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5) ;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header {
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+.menu .navbar ul li a:hover {
+    color: rgb(94, 125, 216);
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label { 
+    cursor: pointer;
+    display: none;
+}
+
+
+.text-box h1 { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    
+}
+
+.text-box p { 
+    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: justify;
+    
+}
+
+.container-lg {
+    background-color: rgba(0, 0, 0, 0.1) ;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

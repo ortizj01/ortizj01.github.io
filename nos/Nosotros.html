@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym System</title>
+    <link rel="stylesheet" href="../nos/estilosn.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@500&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/86c594d8f6.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="shortcut icon" href="../multimedia/favicon.png">
+    <script>
+
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            });
+        });
+
+    </script>
+
+</head>
+<body>
+
+   
+   <!--MENÚ DE NAVEGACIÓN-->
+   <nav>
+    <label class="logo"><a href="../index.html" id="logo-gs"><img src="../multimedia/logoGS.png"></a></label>
+    <ul>
+        <li><a class="active" href="../index.html">INICIO</a></li>
+        <li><a href="../nos/Nosotros.html">NOSOTROS</a></li>
+        <li><a href="../port/portafolio.html">PORTAFOLIO</a></li>
+        <li><a href="../cont/Contacto.html">CONTACTO</a></li>
+        <li><a href="../log/login.html">LOGIN</a></li>
+     </ul>
+     <label id="icon">
+        <i class="fa-solid fa-bars"></i>
+     </label>
+
+   </nav>
+<section>
+    <div class="container-fluid text-box">
+      <h1>¿Quienes somos?</h1>
+      <br>
+      <p class="container-lg "> Estamos comprometidos con el buen servicio y atención a nuestros usuarios. Integrado por un equipo de instructores profesionales, 
+          te brindamos el ambiente más agradable para que tu rutina de ejercicios se ajuste a tus necesidades.
+          Nos aseguramos de que cuentes con una excelente atención desde que entras hasta que dejas el edificio. Nuestro equipo de profesionales 
+          del fitness se compone de instructores certificados que se encuentran siempre a tu disposición.</p>
+  </div>
+</section>
+
+
+<!--EQUIPO-->
+       
+
+<div class="container-lg"> 
+    <br>
+    <h1 class="text-center text-danger">Equipo de trabajo</h1>
+    <br>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="../multimedia/emple1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Instructores</h5>
+              <p class="card-text">En nuestro gimnasio estaras rodeado de los mejores instructores para ayudarte es esta nuevo reto.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../multimedia/emple2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nutricionistas</h5>
+              <p class="card-text">La alimentación es una parte fundamental para tener un estado fisico optimo, por eso tenemos a los mejores en nutrición.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../multimedia/emple3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Asesores</h5>
+              <p class="card-text">Tenemos los mejores asesores para que puedas escoger el plan que más se adapte a tu rutina diaria.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   <div class="container-lg">
+     <br>
+     <br>
+    <h1 class="text-center text-danger">Objetivo</h1>
+    <br>
+    <p class="text-box fs-4 fw-medium">Nuestra meta siempre será ser parte de la salud integral y ofrecer un establecimiento recreacional a aquellas 
+      personas que deseen ejercitarse en un ambiente común con la ayuda de ciertos 
+      profesionales que los orienten a la hora de mejorar y mantener su condición física.</p>
+
+   </div>
+
+   <figure class="figure w-auto p-3 ">
+    <img src="../multimedia/img3.jpg" class="figure-img img-fluid rounded" alt="...">
+    
+  </figure>
+    
+</body>
+</html>

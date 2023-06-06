@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym System</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@500&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/86c594d8f6.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="shortcut icon" href="multimedia/favicon.png">
+    <script>
+
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            });
+        });
+
+    </script>
+
+</head>
+<body>
+
+   <nav>
+    <label class="logo"><a href="index.html" id="logo-gs"><img src="multimedia/logoGS.png"></a></label>
+    <ul>
+        <li><a class="active" href="index.html">INICIO</a></li>
+        <li><a href="nos/Nosotros.html">NOSOTROS</a></li>
+        <li><a href="port/portafolio.html">PORTAFOLIO</a></li>
+        <li><a href="cont/Contacto.html">CONTACTO</a></li>
+        <li><a href="log/login.html">LOGIN</a></li>
+     </ul>
+     <label id="icon">
+        <i class="fa-solid fa-bars"></i>
+     </label>
+
+   </nav>
+   <section>
+    <div class="header-content container">
+        <div class="header-txt container">
+            <h1>ENTRENA A TU RITMO CON LOS MEJORES</h1>
+            <p>
+                Somos el gimnasio y la comunidad deportiva más cool de Colombia, tú también puedes ser parte de nuestro parche
+            </p>
+            <a href="#" class="btn-1">Incribete aquí.</a>
+        </div>
+    </div>
+
+   </section>
+    <br>
+    <br>
+    <div class="container container-xxl">
+        <p class="fs-1 text-center">MISIÓN.</p>
+        <p class="fs-4">Contribuir al desarrollo integral de los clientes mediante el diseño y la aplicación de un conjunto de servicios que fortalezcan la salud física y mental. 
+            Ayudar a nuestros socios a crear y mantener una excelente condición física a través de la nutrición y programas de entrenamiento.</p>
+    </div>
+    <br>
+    <br>
+
+    <div class="row g-0 bg-body-secondary position-relative">
+        <div class="col-md-6 mb-md-0 p-md-4">
+          <img src="multimedia/proyecto1.jpg" class="w-100" alt="...">
+        </div>
+        <div class="col-md-6 p-4 ps-md-0">
+          <h5 class="mt-0 fs-1"></h5>
+          <p class="fs-4">
+            Ser un gimnasio líder, brindando calidad y bienestar a nuestros miembros, generando valor humano y profesional a nuestra empresa, a nuestros colaboradores y a nuestra comunidad.
+          </p>
+          <div class="d-grid gap-2 container-fluid">
+            <button type="button" class="btn btn-primary btn-lg">Adquiere el plan básico aquí</button>
+            <button type="button" class="btn btn-secondary btn-lg">Adquiere el plan Estandar aquí</button>
+            <button type="button" class="btn btn-primary btn-lg">Adquiere el plan VIP aquí</button>
+          </div>
+        </div>
+      </div>
+    
+
+    
+</body>
+</html>
